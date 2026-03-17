@@ -1,0 +1,16 @@
+{
+    "architecture": "all",
+    "description": "Waydroid Wrapper for spoofing device identity and bootloader status.",
+    "framework": "ubuntu-sdk-20.04",
+    "hooks": {
+        "waydroid-wrapper": {
+            "apparmor": "waydroid-wrapper.apparmor",
+            "desktop": "waydroid-wrapper.desktop"
+        }
+    },
+    "maintainer": "Waydroid Community <waydroid@example.com>",
+    "name": "waydroid-wrapper.waydroid",
+    "title": "Waydroid Wrapper",
+    "version": "1.3.35"
+
+}
