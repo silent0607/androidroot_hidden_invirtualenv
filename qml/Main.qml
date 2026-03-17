@@ -21,7 +21,7 @@ MainView {
         id: mainPage
         header: PageHeader {
             id: header
-            title: i18n.tr("Waydroid Wrapper v1.3.35")
+            title: i18n.tr("Waydroid Wrapper v1.3.42")
         }
 
         Rectangle {

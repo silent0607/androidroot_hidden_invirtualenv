@@ -9,14 +9,9 @@ ORIG = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(ORIG)
 
 SPOOFED_PROPS = {
-    "ro.product.vendor.brand": "Redmi",
-    "ro.product.vendor.device": "lancelot",
-    "ro.product.vendor.manufacturer": "Xiaomi",
     "ro.product.vendor.model": "M2004J19C",
-    "ro.product.vendor.name": "lancelot_global",
-    "ro.vendor.build.fingerprint": "Redmi/lancelot_global/lancelot:11/RP1A.200720.011/V12.5.4.0.RJCMIXM:user/release-keys",
     "ro.boot.flash.locked": "1",
-    "ro.boot.verifiedbootstate": "green",
+    "ro.boot.verifiedbootstate": "orange",
     "ro.boot.vbmeta.device_state": "locked",
     "ro.build.tags": "release-keys",
     "ro.build.type": "user",

@@ -43,13 +43,9 @@ def make_base_props(args):
             lines = f.readlines()
         
         spoofs = {
-            "ro.product.model": "M2004J19C", "ro.product.brand": "Redmi", "ro.product.manufacturer": "Xiaomi",
-            "ro.product.name": "lancelot_global", "ro.product.device": "lancelot",
-            "ro.build.fingerprint": "Redmi/lancelot_global/lancelot:11/RP1A.200720.011/V12.5.4.0.RJCMIXM:user/release-keys",
-            "ro.build.id": "RP1A.200720.011", "ro.build.version.incremental": "V12.5.4.0.RJCMIXM",
-            "ro.build.version.security_patch": "2021-11-01", "ro.build.version.sdk": "30",
+            "ro.product.model": "M2004J19C",
             "ro.build.type": "user", "ro.build.tags": "release-keys",
-            "ro.boot.flash.locked": "1", "ro.boot.verifiedbootstate": "green",
+            "ro.boot.flash.locked": "1", "ro.boot.verifiedbootstate": "orange",
             "ro.boot.vbmeta.device_state": "locked", "ro.secure": "1", "ro.debuggable": "0"
         }
         
